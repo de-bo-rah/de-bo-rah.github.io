@@ -77,6 +77,10 @@ a {
 .hero {
   padding: 5rem 0 3rem;
   text-align: left;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
 }
 
 .hero h1 {
@@ -154,6 +158,19 @@ a {
 .icon-link:focus {
   transform: translateY(-2px);
   background: rgba(248, 247, 244, 0.08);
+}
+
+.hero-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+}
+
+.hero-media {
+  justify-self: end;
+  max-width: 440px;
+  margin-left: auto;
 }
 
 .btn {
@@ -261,6 +278,10 @@ a {
 
   .blog-item {
     flex-direction: column;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
   }
 }
 .site-header,
