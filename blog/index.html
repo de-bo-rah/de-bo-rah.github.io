@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog
+subtitle: Writing, notes, and experiments.
+---
+
+<div class="blog-list">
+  {% for post in site.posts %}
+  <a class="blog-item" href="{{ post.url }}">
+    <span>{{ post.title }}</span>
+    <span class="blog-date">{{ post.date | date: "%b %d, %Y" }}</span>
+  </a>
+  {% endfor %}
+</div>

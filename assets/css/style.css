@@ -101,6 +101,21 @@ a {
   line-height: 1.7;
 }
 
+.lede + .lede {
+  margin-top: -0.6rem;
+}
+
+.inline-link {
+  color: var(--white);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.05rem;
+}
+
+.inline-link strong {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .cta-row {
   display: flex;
   justify-content: flex-start;
@@ -191,6 +206,17 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: var(--gray);
+}
+
+.post h3 {
+  font-family: "Fraunces", serif;
+  margin-top: 0.8rem;
+}
+
+.post-content {
+  color: var(--gray);
+  line-height: 1.8;
+  margin-top: 1rem;
 }
 
 .blog-list {
