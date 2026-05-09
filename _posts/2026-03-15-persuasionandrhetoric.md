@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Do not adapt yourself to the sufficiency of what is given to you : my notes on Michelstaedter
+title: Do not adapt yourself to the sufficiency of what is given to you - my notes on Michelstaedter
 ---
 
 
